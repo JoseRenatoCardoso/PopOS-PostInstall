@@ -7,7 +7,7 @@ A personal post-install configuration script for Pop!_OS 22.04 LTS, inspired by 
 To run this script directly on your system, use the following command:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/JoseRenatoCardoso/PopOS-PostInstall/main/script.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JoseRenatoCardoso/PopOS-PostInstall/main/script.sh)"
 ```
 ## What does this script do?
 - Updates and upgrades your system
