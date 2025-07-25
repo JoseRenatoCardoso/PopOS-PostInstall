@@ -80,7 +80,7 @@ flatpak install flathub com.bitwarden.desktop -y
 flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub org.gnome.gitlab.somas.Apostrophe -y
 flatpak install flathub cc.arduino.IDE2 -y
-flatpak install flathub io.github.flattol.Warehouse -y
+flatpak install flathub io.github.flattool.Warehouse -y
 flatpak install flathub me.iepure.devtoolbox -y
 flatpak install flathub dev.geopjr.Collision -y
 flatpak install flathub re.sonny.Eloquent -y
