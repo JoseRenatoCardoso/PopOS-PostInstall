@@ -146,14 +146,6 @@ sudo apt autoremove -y
 nautilus -q
 }
 
-# Create folder structure
-
-mkdir -p /home/$USER/source
-mkdir -p /home/$USER/UTFPR
-mkdir -p "/home/$USER/VMs e ISOs"
-mkdir -p "/home/$USER/Vídeos/OBS Rec"
-
-
 remove_apt_locks
 check_internet
 remove_apt_locks
