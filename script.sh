@@ -123,7 +123,7 @@ configure_zoxide (){
   fi
   curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
   apt install zoxide
-  eval "$(zoxide init bash)"
+  echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 }
 
 add_fastfetch_repository () {
