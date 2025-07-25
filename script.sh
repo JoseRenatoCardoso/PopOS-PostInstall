@@ -122,7 +122,6 @@ configure_zoxide (){
     return
   fi
   curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-  apt install zoxide
   echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 }
 
