@@ -151,7 +151,7 @@ nautilus -q
 mkdir /home/$USER/source
 mkdir /home/$USER/UTFPR 
 mkdir /home/$USER/VMs e ISOs
-mkdir /home/$USER/Videos/'OBS Rec'
+mkdir /home/$USER/Vídeos/'OBS Rec'
 
 
 remove_apt_locks
