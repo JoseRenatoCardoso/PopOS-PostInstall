@@ -98,6 +98,7 @@ flatpak install flathub com.discordapp.Discord -y
 ## Installing Snap packages ##
 
 install_snap_packages(){
+sudo apt update
 sudo apt install snapd
 sudo apt update
 
