@@ -32,7 +32,6 @@ sudo apt update -y
 # List of programs
 
 APT_PACKAGES=(
-  snapd
   gparted
   timeshift
   vlc
@@ -99,6 +98,8 @@ flatpak install flathub com.discordapp.Discord -y
 ## Installing Snap packages ##
 
 install_snap_packages(){
+sudo apt install snapd
+sudo apt update
 
 echo -e "[INFO] - Installing snap packages"
 
