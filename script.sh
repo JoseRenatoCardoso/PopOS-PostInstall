@@ -20,8 +20,8 @@ fi
 
 ## Remove apt locks ##
 remove_apt_locks(){
-  sudo rm /var/lib/dpkg/lock-frontend
-  sudo rm /var/cache/apt/archives/lock
+  sudo rm /var/lib/dpkg/lock-frontend 2>/dev/null || true
+  sudo rm /var/cache/apt/archives/lock 2>/dev/null || true
 }
 
 ## Update repository ##
