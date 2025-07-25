@@ -41,7 +41,6 @@ APT_PACKAGES=(
   gh
   ubuntu-restricted-extras
   v4l2loopback-utils
-  #compilers
   gcc-12
   g++-12
   clang-15
