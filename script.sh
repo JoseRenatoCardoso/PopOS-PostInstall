@@ -69,7 +69,7 @@ flatpak install flathub com.usebottles.bottles -y
 flatpak install flathub md.obsidian.Obsidian -y
 flatpak install flathub com.spotify.Client -y
 flatpak install flathub io.github.shiftey.Desktop -y
-sleep2
+sleep 2
 flatpak install flathub com.bitwarden.desktop -y
 flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub org.gnome.gitlab.somas.Apostrophe -y
