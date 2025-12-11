@@ -113,11 +113,7 @@ flatpak install flathub com.github.unrud.VideoDownloader -y
 
 ## Installing Snap packages ##
 
-install_snap_packages(){
-
-#Optional use
-
-}
+#install_snap_packages(){#Optional use}
 
 install_rclone () {
   if command -v rclone &> /dev/null; then
